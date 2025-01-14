@@ -85,7 +85,7 @@ Running the Chatbot
 
 Start the Streamlit application:
 ```bash
-streamlit run app/app.py
+streamlit run app.py
 ```
 
 The chatbot can handle:
