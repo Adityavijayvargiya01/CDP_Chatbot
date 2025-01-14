@@ -17,6 +17,8 @@ A comprehensive chatbot that helps users navigate and understand documentation f
 - Identifies content types and difficulty levels
 - Saves data in JSON format for easy access
 
+<img src="public/scraper.png">
+
 ### Chatbot Interface
 - Interactive chat UI built with Streamlit
 - Natural language question handling
@@ -50,6 +52,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+
+IF YOU ARE FACING ISSUES WITH PIP , 
+
+Try Installing Conda and follow above steps
+
+
 ## Required Libraries
 
 ```txt
@@ -69,25 +77,6 @@ streamlit==1.24.0
 # Utilities
 python-dotenv==1.0.0
 tqdm==4.65.0
-```
-
-## Project Structure
-
-```
-cdp-chatbot/
-├── scraper/
-│   ├── __init__.py
-│   └── cdp_scraper.py
-├── app/
-│   ├── __init__.py
-│   └── app.py
-├── cdp_docs/
-│   ├── segment_docs.json
-│   ├── mparticle_docs.json
-│   ├── lytics_docs.json
-│   └── zeotap_docs.json
-├── requirements.txt
-└── README.md
 ```
 
 ## Usage
